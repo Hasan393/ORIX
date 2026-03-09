@@ -1,0 +1,79 @@
+# Rust build artifacts
+target/
+Cargo.lock
+
+# IDE and Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Sensitive files - NEVER commit these!
+.env
+.env.local
+.env.production
+.env.staging
+.env.test
+*.key
+*.pem
+*.crt
+*.p12
+*.pfx
+secrets/
+config/secrets.json
+config/credentials.json
+config/api_keys.json
+logs/*.log
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+.cache/
+tmp/
+temp/
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Model files (large binary files)
+models/*.bin
+models/*.onnx
+models/*.pt
+models/*.h5
+models/*.pb
+
+# Dataset files (potentially large)
+datasets/*.zip
+datasets/*.tar.gz
+datasets/*.csv
+datasets/*.jsonl
+
+# Vector store files
+vectors/*.faiss
+vectors/*.ann
+
+# Plugin binaries
+plugins/*.so
+plugins/*.dll
+plugins/*.dylib
+
+# Benchmark results
+benchmarks/*.json
+benchmarks/*.csv
+
+# User-specific configurations
+config/user.json
+config/personal.json

@@ -1,4 +1,4 @@
-use clap::{Parser, Subcommand, Args};
+use clap::{Parser, Subcommand};
 
 #[derive(Parser, Debug, PartialEq)]
 #[command(name = "owncli", version = "1.0", about = "AI Infrastructure Management CLI", long_about = None)]
